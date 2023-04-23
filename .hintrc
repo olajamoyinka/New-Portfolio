@@ -13,5 +13,8 @@
     "not samsung <= 20",
     "not ios_saf <= 14.8",
     "not opera <= 95"
-  ]
+  ],
+  "hints": {
+    "compat-api/css": "off"
+  }
 }

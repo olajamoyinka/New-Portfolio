@@ -60,7 +60,7 @@ module.exports = {
           '5px 5px rgba(0,0,0,0.2)',
         ],
       },
-      screens:{
+      screens: {
         '3xl': '1700px',
         '4xl': '1800px',
         '5xl': '1950px',
