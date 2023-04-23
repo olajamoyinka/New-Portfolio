@@ -1,4 +1,4 @@
-![alt text](https://github.com/khakiiman/applestorefront/blob/main/applestorefront/public/views.png?raw=true)
+![alt text](https://github.com/khakiiman/portfolio/blob/main/src/assets/IntroPic.png?raw=true)
 
 # New Portfolio Website
 
@@ -79,7 +79,6 @@ This project is deployed using Netlify. To deploy your own version of this websi
 - [React Animated Number](https://github.com/Leocardoso94/react-animated-number)
 - [React Scroll](https://github.com/fisshy/react-scroll)
 - [Framer Motion](https://www.framer.com/motion/)
-
 
 ## Contributing
 
