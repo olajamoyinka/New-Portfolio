@@ -41,7 +41,7 @@ const Projects = () => {
         </span>
       </p>
 
-      <List list={navList} filterItems={filterItems} />
+      {/* <List list={navList} filterItems={filterItems} /> */}
 
       <div className='sm:grid-cols-2 xl:grid-cols-3 gap-[40px] grid'>
         <AnimatePresence initial={false}>

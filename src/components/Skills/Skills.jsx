@@ -28,15 +28,15 @@ const Skills = () => {
                 <h3 className='text-larger text-titleColor font-[700] dark:text-titleColorDark'>
                   {name}
                 </h3>
-                <span className='text-titleColor dark:text-titleColorDark font-[700] text-large'>
+                {/* <span className='text-titleColor dark:text-titleColorDark font-[700] text-large'>
                   {percentage} <span className='text-primaryColor'>%</span>
-                </span>
+                </span> */}
               </div>
               <p className='mb-[30px] px-[30px] text-titleColor dark:text-titleColorDark text-small'>
                 {description}
               </p>
 
-              <div className='h-[2px] dark:bg-[rgba(255,255,255,0.2)] bg-[rgba(0,0,0,0.3)] mx-12 sm:mx-4'>
+              {/* <div className='h-[2px] dark:bg-[rgba(255,255,255,0.2)] bg-[rgba(0,0,0,0.3)] mx-12 sm:mx-4'>
                 <span
                   className='relative h-[2px] block bg-primaryColor'
                   style={{
@@ -45,7 +45,7 @@ const Skills = () => {
                 >
                   <span className='bg-containerColor border-[2px] border-solid border-borderColor w-[25px] h-[25px] rounded-[50%] absolute right-0 top-[-12px]'></span>
                 </span>
-              </div>
+              </div> */}
             </div>
           );
         })}

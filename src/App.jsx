@@ -21,11 +21,11 @@ const App = () => {
       <Skills />
       <Projects />
       <Resume />
-      <Testimonials />
+      {/* <Testimonials />
       <Pricing />
-      <Blog />
+      <Blog /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 };

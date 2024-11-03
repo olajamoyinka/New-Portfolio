@@ -6,7 +6,8 @@ module.exports = {
   darkMode: 'class',
   theme: {
     colors: {
-      primaryColor: 'hsl(164, 60%, 50%)',
+      // primaryColor: 'hsl(164, 60%, 50%)',
+      primaryColor: 'hsl(38.8, 100%, 50%)',
       white: 'hsl(0, 100%, 100%)',
       black: 'hsl(0,0%, 0%)',
       red: 'hsl(0, 100%, 50%)',

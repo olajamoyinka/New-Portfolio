@@ -5,15 +5,17 @@ import { motion } from 'framer-motion';
 import profileImage from '../../assets/profile-img.png';
 import shapeOne from '../../assets/shape-1.png';
 import shapeTwo from '../../assets/shape-2.png';
+import jaymightyImage from '../../assets/Image/image1-removebg-preview.png'
 
 import {
   FaTwitter,
-  FaInstagram,
+  FaLinkedin,
   FaTelegram,
-  FaFacebookSquare,
+  FaWhatsapp,
   FaYoutube,
   FaGithub,
   FaEnvelope,
+  FaBlenderPhone,
 } from 'react-icons/fa';
 
 const Home = () => {
@@ -35,13 +37,13 @@ const Home = () => {
           </p>
 
           <h1 className='uppercase tracking-[0.05em] text-h2Size sm:text-[70px] font-[700] flex sm:items-start justify-center items-center drop-shadow-textShadow leading-[1.2] mt-[15px] flex-col gap-2 sm:gap-0'>
-            <span className='text-primaryColor'>Iman&nbsp;&nbsp;K.&nbsp;</span>
-            <span>Bakhtiarvand</span>
+            <span className='text-primaryColor'>Jamiu&nbsp;&nbsp;A.&nbsp;</span>
+            <span>Wahab</span>
           </h1>
 
           <p className='font-[700] leading-[1.7] flex items-center justify-center sm:justify-start'>
             <span className='text-small tracking-[0.05em] uppercase text-titleColor dark:text-textColorDark'>
-              I am
+              I am a
             </span>
             <b className='font-[Caveat] text-h2Size ml-[10px] text-titleColor dark:text-titleColorDark'>
               Frontend Developer
@@ -49,49 +51,49 @@ const Home = () => {
           </p>
 
           <p className='text-large max-w-[520px] my-[40px] leading-[1.7] text-textColor dark:text-textColorDark font-[Comfortaa] font-[700] flex items-center text-center sm:text-left'>
-            From Iran, Esfahan. I have rich experience in web development, also
-            good at backend stuff. I love to talk with you about our unique.
+            A passionate frontend developer specializing in implementing and translating design concept into seamless and interactive web experiences.
           </p>
 
           <div className='flex gap-[20px] mb-[30px] justify-center sm:justify-start'>
             <a
-              href='#'
+              href='https://twitter.com/olajamoyinka' target='blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaTwitter />
             </a>
             <a
-              href='#'
+              href='https://wa.me/+2348126182619?text=Hi' target='blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
-              <FaFacebookSquare />
+              <FaWhatsapp />
             </a>
             <a
-              href='#'
+              href='https://github.com/olajamoyinka' target='blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaGithub />
             </a>
             <a
-              href='#'
+              href='https://www.linkedin.com/in/jamiu-wahab-266197252/' target='blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
-              <FaInstagram />
+              <FaLinkedin />
             </a>
             <a
-              href='#'
+              href='tel:+2348126182619' target='blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
-              <FaTelegram />
+              <FaBlenderPhone />
             </a>
-            <a
+            {/* <a
               href='#'
+
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaYoutube />
-            </a>
+            </a> */}
             <a
-              href='#'
+              href='mailto:olajamoyhinka@gmail.com' target='blank'
               className='text-titleColor text-h5Size transition-all duration-75 ease-[cubic-bezier(0.3,0,0.3,1)] hover:text-primaryColor dark:text-textColorDark dark:hover:text-primaryColor hover:animate-bounce'
             >
               <FaEnvelope />
@@ -100,8 +102,8 @@ const Home = () => {
 
           <div className='flex gap-[70px] font-[700] uppercase tracking-[0.05em] items-center justify-center mx-[-40px] sm:mx-0 sm:justify-start'>
             <a
-              href='https://drive.google.com/uc?export=download&id=1Fz9PbSMnIC7HTAvWxw6rSwqIg6D_UNZ-'
-              download='ResumeOfImanKhaki.pdf'
+              href='https://drive.google.com/file/d/1nsqB_5phyodWH8SjuTHBr7ktbR_3AdsZ/view?usp=drive_link'
+              download=''
               target="_blank"
               className='text-titleColor dark:text-titleColorDark text-tiny grid place-items-center border-[2px] border-solid border-borderColor dark:border-borderColorDark p-[20px] rounded-[56px] shadow-[5px_5px_rgba(0,0,0,0.2)] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] relative before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[0] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'
             >
@@ -122,13 +124,13 @@ const Home = () => {
         </div>
         {/* right side */}
         <div className='relative top-0 right-0 sm:translate-y-[-9%] rounded-full bg-primaryColor w-full max-w-[680px] lg:order-2'>
-          <div className='bg-gradient-180 from-[#33cca3] via-[#00ffbb] to-[#6bff6b] z-[1] pb-[100%] rounded-full'>
+          <div className='bg-gradient-180 from-[#FF9D3D] via-[#FEEE91] to-[#FFBD73] z-[1] pb-[100%] rounded-full'>
             <motion.img
               initial={{ bottom: '50px' }}
               whileInView={{ bottom: '-1px' }}
               transition={transition}
               className='absolute sm:bottom-0 sm:h-[800px] rounded-[500px] object-cover'
-              src={profileImage}
+              src={jaymightyImage}
               alt='HeroImg'
             />
           </div>
@@ -136,7 +138,7 @@ const Home = () => {
           <div className='uppercase absolute bottom-[-23%] left-[-5%] sm:bottom-[20%] sm:left-[2%] border-[3px] border-solid border-borderColor bg-containerColor sm:shadow-[5px_5px_rgba(0,0,0,0.2)] dark:sm:shadow-[5px_5px_rgba(0,0,0,0.3)] shadow-[5px_5px_rgba(0,0,0,0.3)] dark:shadow-[5px_5px_rgba(255,255,255,0.3)] px-[5px] xs:px-[10px] sm:px-[20px] xs:w-[165px] w-[145px] sm:w-[250px] sm:h-[82px] rounded-[82px] flex items-center z-[1]'>
             <span className='w-[50%] text-titleColor font-[700] text-center text-[30px] sm:text-[40px] flex items-center gap-2'>
               <AnimatedNumbers
-                animateToNumber='3'
+                animateToNumber='1'
                 locale='en'
                 configs={[
                   { mass: 1, tension: 220, friction: 100 },
@@ -157,7 +159,7 @@ const Home = () => {
             </span>
           </div>
 
-          <div className=' uppercase absolute bottom-[-23%] right-[-4%] sm:bottom-[12%] sm:right-[6%] lg:bottom-[5%] border-[3px] border-solid border-borderColor bg-containerColor sm:shadow-[5px_5px_rgba(0,0,0,0.2)] dark:sm:shadow-[5px_5px_rgba(0,0,0,0.3)] shadow-[5px_5px_rgba(0,0,0,0.3)] dark:shadow-[5px_5px_rgba(255,255,255,0.3)] px-[5px] xs:px-[10px] sm:px-[20px] xs:w-[165px] w-[140px] sm:w-[250px] sm:h-[82px] rounded-[82px] flex items-center z-[1]'>
+          {/* <div className=' uppercase absolute bottom-[-23%] right-[-4%] sm:bottom-[12%] sm:right-[6%] lg:bottom-[5%] border-[3px] border-solid border-borderColor bg-containerColor sm:shadow-[5px_5px_rgba(0,0,0,0.2)] dark:sm:shadow-[5px_5px_rgba(0,0,0,0.3)] shadow-[5px_5px_rgba(0,0,0,0.3)] dark:shadow-[5px_5px_rgba(255,255,255,0.3)] px-[5px] xs:px-[10px] sm:px-[20px] xs:w-[165px] w-[140px] sm:w-[250px] sm:h-[82px] rounded-[82px] flex items-center z-[1]'>
             <span className='w-[50%] text-titleColor font-[700] text-center text-[30px] sm:text-[40px]'>
               <AnimatedNumbers
                 animateToNumber='11'
@@ -176,7 +178,7 @@ const Home = () => {
             <span className='ml-[10px] sm:ml-0 text-[10px] sm:text-[15px] leading-[1.5em] font-[700] text-titleColor'>
               Completed <span className='text-primaryColor'>Projects</span>
             </span>
-          </div>
+          </div> */}
 
           <img
             className='absolute dark:invert-[1] dark:opacity-[0.6] w-[221px] h-[211px] top-[-6%] right-[6%] z-[-1] '

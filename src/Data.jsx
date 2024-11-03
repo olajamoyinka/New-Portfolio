@@ -2,6 +2,10 @@ import digiCosmetics from './assets/digiCosmetics.png';
 import portfolio from './assets/portfolio.png';
 import appleStore from './assets/appleStore.png';
 import golsam from './assets/golsam.png';
+import CSEAN from './assets/Image/CSEAN.png';
+import GAPHUB from './assets/Image/gaphub.png';
+import calculator from './assets/Image/calculator.png';
+import renewable from './assets/Image/renewable.png';
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -54,36 +58,36 @@ export const service = [
     name: 'Web Development',
     title: 'Custom Development',
     description:
-      'I can develop custom websites using the latest frontend technologies, such as React.js, Next.js, and JavaScript, to create fast and dynamic websites.',
+      'I can develop custom websites using the latest frontend technologies, such as React.js and JavaScript, to create fast and dynamic websites.',
   },
   {
     id: 2,
     name: 'User Experience',
     title: 'User Experience Design',
     description:
-      'I can design user experiences that are intuitive, easy to use, and visually appealing, so your customers will keep coming back.',
+      'I can design user experiences that are intuitive, easy to use, and visually appealing.',
   },
   {
     id: 3,
     name: 'Web Optimization',
     title: 'Speed Optimization',
     description:
-      ' I can optimize speed and performance of your website, so it loads quickly and efficiently, which can improve your search engine rankings and keep your customers engaged.',
+      ' I can optimize speed and performance of your website, so it loads quickly and efficiently, which can improve search engine rankings.',
   },
-  {
-    id: 4,
-    name: 'Web Maintenance',
-    title: 'Maintenance and Support',
-    description:
-      'I can provide ongoing maintenance and support for your website, including bug fixes, security updates, and content updates, so you can focus on growing your business.',
-  },
-  {
-    id: 5,
-    name: 'Interactive Effects',
-    title: 'Animations and Effects',
-    description:
-      'Animations and interactive effects can make your website more engaging and memorable. I can create custom animations and effects using CSS, framer-motion and three.js to bring your website to life.',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Web Responsiveness',
+  //   title: 'Maintenance and Support',
+  //   description:
+  //     'I can provide ongoing maintenance and support for your website, including bug fixes, security updates, and content updates, so you can focus on growing your business.',
+  // },
+  // {
+  //   id: 5,
+  //   name: 'Interactive Effects',
+  //   title: 'Animations and Effects',
+  //   description:
+  //     'Animations and interactive effects can make your website more engaging and memorable. I can create custom animations and effects using CSS, framer-motion and three.js to bring your website to life.',
+  // },
 ];
 
 export const skill = [
@@ -111,21 +115,21 @@ export const skill = [
       'A popular JavaScript library for building user interfaces, React is used to create dynamic and responsive web applications.',
   },
 
-  {
-    id: 4,
-    name: 'Next.js',
-    percentage: 75,
-    description:
-      'Next.js is a React-based framework for building server-side rendered and statically generated web applications.',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Next.js',
+  //   percentage: 75,
+  //   description:
+  //     'Next.js is a React-based framework for building server-side rendered and statically generated web applications.',
+  // },
 
-  {
-    id: 5,
-    name: 'TypeScript',
-    percentage: 75,
-    description:
-      'TypeScript is a superset of JavaScript that adds optional static typing and other features to the language.',
-  },
+  // {
+  //   id: 5,
+  //   name: 'TypeScript',
+  //   percentage: 75,
+  //   description:
+  //     'TypeScript is a superset of JavaScript that adds optional static typing and other features to the language.',
+  // },
 
   {
     id: 6,
@@ -143,37 +147,37 @@ export const skill = [
       'Git is a widely used version control system that is essential for collaborative development and project management. ',
   },
 
-  {
-    id: 8,
-    name: 'Webpack',
-    percentage: 50,
-    description:
-      'Webpack is a module bundler for modern JavaScript applications. It bundles assets, modules, and dependencies into a single file.',
-  },
+  // {
+  //   id: 8,
+  //   name: 'Webpack',
+  //   percentage: 50,
+  //   description:
+  //     'Webpack is a module bundler for modern JavaScript applications. It bundles assets, modules, and dependencies into a single file.',
+  // },
 
-  {
-    id: 9,
-    name: 'GraphQL',
-    percentage: 80,
-    description:
-      'GraphQL is a query language for APIs that provides a more efficient, powerful and flexible alternative to RESTful APIs.',
-  },
+  // {
+  //   id: 9,
+  //   name: 'GraphQL',
+  //   percentage: 80,
+  //   description:
+  //     'GraphQL is a query language for APIs that provides a more efficient, powerful and flexible alternative to RESTful APIs.',
+  // },
 
-  {
-    id: 10,
-    name: 'RESTful API',
-    percentage: 90,
-    description:
-      'RESTful API is an interface that two computer systems use to exchange information securely over the internet.',
-  },
+  // {
+  //   id: 10,
+  //   name: 'RESTful API',
+  //   percentage: 90,
+  //   description:
+  //     'RESTful API is an interface that two computer systems use to exchange information securely over the internet.',
+  // },
 
-  {
-    id: 11,
-    name: 'Sass',
-    percentage: 75,
-    description:
-      'Sass is a CSS preprocessor that allows developers to write CSS in a more concise and structured way.',
-  },
+  // {
+  //   id: 11,
+  //   name: 'Sass',
+  //   percentage: 75,
+  //   description:
+  //     'Sass is a CSS preprocessor that allows developers to write CSS in a more concise and structured way.',
+  // },
 
   {
     id: 12,
@@ -183,155 +187,151 @@ export const skill = [
       'Bootstrap is a popular CSS framework that provides developers with a set of pre-built UI components.',
   },
 
-  {
-    id: 13,
-    name: 'Redux',
-    percentage: 80,
-    description:
-      'Redux is a predictable state container for JavaScript apps, used to manage the state of complex applications.',
-  },
+  // {
+  //   id: 13,
+  //   name: 'Redux',
+  //   percentage: 80,
+  //   description:
+  //     'Redux is a predictable state container for JavaScript apps, used to manage the state of complex applications.',
+  // },
 
-  {
-    id: 14,
-    name: 'Zustand',
-    percentage: 85,
-    description:
-      'Zustand is a small, fast and scalable status management solution. Its state management is centralized and action-based.',
-  },
+  // {
+  //   id: 14,
+  //   name: 'Zustand',
+  //   percentage: 85,
+  //   description:
+  //     'Zustand is a small, fast and scalable status management solution. Its state management is centralized and action-based.',
+  // },
 
-  {
-    id: 15,
-    name: 'Jest & Cypress',
-    percentage: 45,
-    description:
-      'Jest and Cypress are JavaScript-based testing framework designed to ensure correctness of any JavaScript codebase.',
-  },
+  // {
+  //   id: 15,
+  //   name: 'Jest & Cypress',
+  //   percentage: 45,
+  //   description:
+  //     'Jest and Cypress are JavaScript-based testing framework designed to ensure correctness of any JavaScript codebase.',
+  // },
 ];
 
 export const project = [
   {
     id: 1,
-    img: digiCosmetics,
+    img: GAPHUB,
     category: 'Landing',
-    title: 'digiCosmetics',
+    title: 'GAPHUB',
     description:
-      'Landing page designed for selling cosmetic products. It typically includes a visually appealing design, easy navigation, and clear product descriptions.',
-    url: 'https://digicosmetics.netlify.app',
-    sourceUrl: 'https://github.com/khakiiman/digiCosmetics',
+      'GapHub property is a real estate website, GAP PropertyHub is not just a property listing website, it is the investor’s toolkit for planning how to build a profitable asset portfolio.',
+    url: 'https://gappropertyhub.com/',
   },
 
   {
     id: 2,
-    img: portfolio,
+    img: renewable,
     category: 'Portfolio',
-    title: 'Developer Portfolio',
+    title: ' SOLARPADI E-Commerce',
     description:
-      'This Portfolio involves creating a visually appealing and user-friendly website that showcases the skills and portfolio of a frontend developer.',
-    url: 'http://imankhaki.netlify.app/',
-    sourceUrl: 'https://github.com/khakiiman/portfolio',
+      'This website is provide where to get all the needed equipment for renewable energies like solar pane;, batteries and all.',
+    url: 'https://renewable.dayusgroup.com',
   },
 
   {
     id: 3,
-    img: appleStore,
-    category: 'Ecommerce',
-    title: 'New Apple Store',
+    img: CSEAN,
+    category: 'Blog',
+    title: 'CSEAN',
     description:
-      'The new Apple Store landing page is a web page designed for showcasing and promoting Apple products, services, and features.',
-    url: 'https://newapplestore.netlify.app/',
-    sourceUrl: 'https://github.com/khakiiman/applestore',
+    'This website is developed for the Cyber Security Experts Association Of Nigeria. ',
+    url: 'https://members.csean.org.ng/',
   },
 
   {
     id: 4,
-    img: golsam,
-    category: 'Blog',
-    title: 'Golsam Sepahan',
+    img: calculator,
+    category: 'Ecommerce',
+    title: 'SOLARPADI CALCULATOR',
     description:
-      'A new design blog provides informative content related to the agricultural industry, including tips and advice on the use of fertilizers and pesticides. ',
-    url: 'https://golsamsepahan.netlify.app',
-    sourceUrl: 'https://github.com/khakiiman/golsam-sepahan',
+      'SOLARPADI CALCULATOR is a website that helps calculate the total energy used in an apartment and the energy needed to power it so as to provide the most suitable solar panel and battery.',
+    url: 'https://renewable.dayusgroup.com/calculator',
   },
 ];
 
 export const cv = [
   {
     id: 1,
-    title: 'University of Tehran',
-    subtitle: 'M.Sc. in Engineering',
-    date: '2014 - 2016',
+    title: 'Kwara state Polytechnic',
+    subtitle: 'HND. in Engineering',
+    date: '2019 - 2021',
     description:
-      'The Master of Science in Hydraulic Engineering program at the University of Tehran is a two-year postgraduate degree that provides students with advanced knowledge of water structural engineering.',
+      'Higher National Diploma in Electrical and Electronics Engineering, particularly Electronics/Telecommunication.',
     category: 'education',
   },
 
   {
     id: 2,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'SQL Server',
-    date: '2012 - 2013',
+    title: 'Kwara state Polytechnic',
+    subtitle: 'ND in Engineering',
+    date: '2016 - 2018',
     description:
-      'The SQL Server Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of SQL Server databases, including database design, administration, and programming.',
+      'National Diploma in Electrical and Electronics Engineering.',
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'Mehregan Institute Certificate',
-    subtitle: 'C#.Net',
-    date: '2012 - 2013',
+    title: 'Marian Academy',
+    subtitle: 'Secondary School',
+    date: '2008 - 2014',
     description:
-      'The C#.Net Certificate program at Mehregan Institute is a training program that provides students with advanced knowledge of C# programming language and .NET framework.',
+      'Secondary school education and school certificate.',
     category: 'education',
   },
 
-  {
-    id: 4,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '0000 - 0000',
-    description:
-      'Coming Soon...',
-    category: 'education',
-  },
+  // {
+  //   id: 4,
+  //   title: 'Coming Soon...',
+  //   subtitle: 'Coming Soon...',
+  //   date: '0000 - 0000',
+  //   description:
+  //     'Coming Soon...',
+  //   category: 'education',
+  // },
 
   {
     id: 5,
-    title: 'Freelancing (Web Development)',
-    subtitle: 'GolsamSepahan Blog',
-    date: '2022 - PRESENT',
+    title: 'Frontend Development (Intership)',
+    subtitle: 'DVEARSE TECH',
+    date: '2023 - PRESENT',
     description:
-      'As a freelance frontend developer, I was responsible for developing the frontend of a blog website from scratch, which involved creating an intuitive and visually engaging user interface. My responsibilities included designing and implementing responsive layouts, optimizing website performance, and ensuring cross-browser compatibility.',
+      'As a frontend developer, I am responsible for developing the frontend of a website from scratch, which involved creating an intuitive and visually engaging user interface. My responsibilities included designing and implementing responsive layouts, optimizing website performance, and ensuring cross-browser compatibility.',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
+    title: 'IT OPERATOR (NYSC) ',
+    subtitle: 'Lagos Island Local Governmeent',
+    date: '2022 - 2023',
     description:
-      'Coming Soon....',
+      'As the IT lead, my main task is to operate and monitor computer equipment and peripheral devices, maintaining and troubleshooting an operating system, and documenting operational problems.',
     category: 'experience',
   },
 
   {
     id: 7,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
+    title: 'Technician / Computer Engineer (Industrial Trainee)',
+    subtitle: 'Habtech Computer Software',
+    date: '2018 - 2019',
     description:
-      'Coming Soon....',
+      'As a computer Engineer/ Technician, I format, erase, and update computers, laptops and mobile phones, also repair of the computer and laptops and impact knowledge to students.',
     category: 'experience',
   },
   
   {
     id: 8,
-    title: 'Coming Soon...',
-    subtitle: 'Coming Soon...',
-    date: '000 - 0000',
+    title: 'Technician / Computer Engineer',
+    subtitle: 'Toomuch Technology',
+    date: '2014-2016, 2021 - 2022',
     description:
-      'Coming Soon....',
+      'As a computer Engineer/ Technician, I format, erase, and update computers, laptops and mobile phones, also repair of the computer and laptops and impact knowledge to students.',
     category: 'experience',
   },
 

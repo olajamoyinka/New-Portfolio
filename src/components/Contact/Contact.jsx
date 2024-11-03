@@ -67,7 +67,7 @@ const Contact = () => {
               Address
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              Iran, Isfahan, Farhang st No.26
+              Ogba, Ikeja, Lagos State.
             </p>
           </div>
           <div className='contact__card'>
@@ -75,7 +75,7 @@ const Contact = () => {
               <FaRegUser className='text-titleColor dark:text-titleColorDark' />
             </span>
             <h3 className='contact__card-title font-[700] text-titleColor dark:text-titleColorDark'>
-              Freelance
+              JOB
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
               Available Right Now
@@ -89,7 +89,7 @@ const Contact = () => {
               Email
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              ikhaki71@gmail.com
+              olajamoyhinka@gmail.com
             </p>
           </div>
           <div className='contact__card'>
@@ -100,12 +100,12 @@ const Contact = () => {
               Phone
             </h3>
             <p className='contact__card-data text-textColor dark:text-textColorDark'>
-              +98 913 603 9501
+              +234 812 618 2619
             </p>
           </div>
         </div>
 
-        <form className='contact__form' onSubmit={handleSubmit}>
+        <form className='contact__form' onSubmit={''}>
           <div className='contact__form-group grid-cols-1 sm:grid-cols-2 grid'>
             <div className='contact__form-div'>
               <label className='contact__form-tag uppercase tracking-[0.05em] text-titleColor dark:text-titleColorDark'>
@@ -161,9 +161,9 @@ const Contact = () => {
           </div>
 
           <div className='contact__submit grid grid-cols-1 sm:flex gap-4 items-center justify-center sm:justify-around text-titleColor dark:text-titleColorDark'>
-            <p className='font-[Comfortaa]'>
+            {/* <p className='font-[Comfortaa]'>
               *Accept the terms and conditions.
-            </p>
+            </p> */}
             <button
               type='submit'
               className='flex items-center justify-around w-full sm:w-1/3 text-titleColor dark:text-titleColorDark text-large gap-2 border-[2px] border-solid border-borderColor dark:border-borderColorDark py-[16px] px-[16px] rounded-[56px] dark:shadow-[5px_5px_rgba(255,255,255,0.1)] shadow-[5px_5px_rgba(0,0,0,0.3)] relative bg-white dark:bg-titleColor before:content-[""] before:absolute before:inset-[2px] before:bg-primaryColor before:rounded-[56px] before:scale-[0.3] before:blur-[10px] before:opacity-0 before:transition-all before:duration-[0.6s] before:ease-[cubic-bezier(0.3,0,0.3,1)] before:z-[1] hover:before:scale-[1] hover:before:blur-0 hover:before:opacity-100'

@@ -98,7 +98,7 @@ const Header = () => {
           onClick={scrollTop}
           className='nav__logo capitalize tracking-[0.05em] dark:text-titleColorDark text-titleColor'
         >
-          My Portfolio
+          <span className='text-[orange]'>Jaymighty's</span> Portfolio
         </Link>
         <div
           className={`${
@@ -196,7 +196,7 @@ const Header = () => {
             />
           </div>
 
-          <div
+          {/* <div
             className={`${
               showMenu ? 'nav__toggle animate-toggle' : 'nav__toggle'
             }  `}
@@ -204,7 +204,7 @@ const Header = () => {
           >
             <span className='bg-textColor dark:bg-textColorDark'></span>
             <span className='bg-textColor dark:bg-textColorDark'></span>
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>
