@@ -245,7 +245,7 @@ export const project = [
 
   {
     id: 4,
-    img: calculator,
+    img: Calculator,
     category: 'Ecommerce',
     title: 'SOLARPADI CALCULATOR',
     description:
