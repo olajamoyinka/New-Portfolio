@@ -4,7 +4,7 @@ import appleStore from './assets/appleStore.png';
 import golsam from './assets/golsam.png';
 import CSEAN from './assets/Image/CSEAN.png';
 import GAPHUB from './assets/Image/gaphub.png';
-import Calculator from './assets/Image/calculator.png';
+import Calculator from './assets/Image/Calculator.png';
 import renewable from './assets/Image/renewable.png';
 
 import Testimonial1 from './assets/testimonial1.jpg';
